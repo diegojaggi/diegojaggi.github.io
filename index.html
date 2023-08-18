@@ -1,53 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Diego Jaggi - Digital Nomad</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diego Jaggi</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  header h1 {
+    color: black;
+  }
+
+  header .instagram-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  section {
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  section img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  footer .instagram-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .email-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+</style>
 </head>
 <body>
-    <header class="header">
-        <div class="header-left">
-            <span class="header-title">Diego Jaggi</span>
-        </div>
-        <div class="header-right">
-            <a href="https://www.instagram.com/jaeggi.diego" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Icon">
-            </a>
-        </div>
-    </header>
-
-    <section class="image-section">
-        <h2>Upload Image</h2>
-        <div class="image-upload-container">
-            <label for="image-upload" class="image-upload-label">
-                <span>Drag and drop an image here or click to browse</span>
-                <input type="file" id="image-upload" accept="image/*">
-            </label>
-        </div>
-    </section>
-
-    <section class="bio-section">
-        <p>
-            I am Diego Jaggi - a Digital Nomad from Switzerland and Argentina, currently residing in Bogota, Colombia.
-            This website was created with no coding experience and with the help of A.I. It marks the beginning of my journey to create no-code SAAS and AI tools that will lead me to financial freedom.
-            Feel free to reach out to me with any questions.
-        </p>
-        <a class="email-button" href="mailto:jaeggi.diego@gmail.com">Email Me</a>
-    </section>
-
-    <footer class="footer">
-        <div class="footer-left">
-            <a href="https://www.instagram.com/jaeggi.diego" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Icon">
-            </a>
-        </div>
-        <div class="footer-center">
-            Powered by A.I
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+  <header>
+    <h1>Diego Jaggi</h1>
+    <a href="https://www.instagram.com/jaeggi.diego" target="_blank">
+      <img class="instagram-icon" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+    </a>
+  </header>
+  <section>
+    <img src="https://scontent-zrh1-1.xx.fbcdn.net/v/t39.30808-6/225483286_3034394783444118_3142322534712571548_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=_awmdIirswkAX8kBv7E&_nc_ht=scontent-zrh1-1.xx&oh=00_AfCPuiOy0zNKqJDtSrbHIuKxINp4fhCd9cnwq3rTOzAs8w&oe=64E385CE" alt="Diego Jaggi">
+  </section>
+  <section>
+    <p>
+      I am Diego Jaggi - a Digital Nomad that is from Switzerland and Argentina, and currently resides in Bogota, Colombia.
+      <br>
+      This website was written with no coding experience and with the help of A.I.
+      <br>
+      It is the beginning of my journey to create no code SAAS and AI tools which will help me become financially free.
+      <br>
+      Feel free to reach out to me with any questions.
+    </p>
+    <a class="email-button" href="mailto:jaeggi.diego@gmail.com">Email Me</a>
+  </section>
+  <footer>
+    <a href="https://www.instagram.com/jaeggi.diego" target="_blank">
+      <img class="instagram-icon" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+    </a>
+    <p>Powered by A.I</p>
+  </footer>
 </body>
 </html>
