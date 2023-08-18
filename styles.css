@@ -36,7 +36,28 @@ body {
 }
 
 .image-section {
-    /* Add styling for the image upload section */
+    padding: 20px;
+}
+
+.image-upload-container {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.image-upload-label {
+    display: block;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.image-upload-label span {
+    display: block;
+    font-size: 16px;
+}
+
+.image-upload-label input[type="file"] {
+    display: none;
 }
 
 .bio-section {
