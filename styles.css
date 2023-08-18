@@ -1,101 +1,60 @@
-/* Reset default margin and padding for all elements */
-* {
+<style>
+  /* Your CSS styles go here */
+  body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
     font-family: Arial, sans-serif;
-}
+  }
 
-.header {
+  header {
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    border-bottom: 1px solid #ccc;
-}
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
 
-.header-left {
-    display: flex;
-    align-items: center;
-}
-
-.header-title {
-    font-size: 24px;
-    font-weight: bold;
+  header h1 {
     color: black;
-    margin-right: 20px;
-}
+  }
 
-.header-right img {
+  header .instagram-icon {
     width: 30px;
     height: 30px;
-}
+  }
 
-.image-section {
-    padding: 20px;
-}
-
-.image-upload-container {
-    border: 2px dashed #ccc;
-    padding: 20px;
+  section {
     text-align: center;
-}
+    padding: 50px 0;
+  }
 
-.image-upload-label {
-    display: block;
-    padding: 20px;
-    cursor: pointer;
-}
+  section img {
+    max-width: 100%;
+    height: auto;
+  }
 
-.image-upload-label span {
-    display: block;
-    font-size: 16px;
-}
-
-.image-upload-label input[type="file"] {
-    display: none;
-}
-
-.bio-section {
-    padding: 20px;
-}
-
-.bio-section p {
-    line-height: 1.5;
-}
-
-.email-button {
-    display: inline-block;
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-.footer {
+  footer {
     background-color: #333;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
+  }
 
-.footer-left img {
-    width: 30px;
-    height: 30px;
-    margin-right: 20px;
-}
+  footer .instagram-icon {
+    width: 20px;
+    height: 20px;
+  }
 
-.footer-center {
-    text-align: center;
-}
+  .email-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+</style>
