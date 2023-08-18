@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   }
 
@@ -42,8 +42,29 @@
     height: auto;
   }
 
+  .animated-banner {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 70px; /* Adjust this value to match header height + desired spacing */
+    animation: slideBanner 10s infinite linear;
+  }
+
+  @keyframes slideBanner {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
   footer {
-    background-color: #A7F6C4;
+    background-color: #333;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -83,6 +104,9 @@
       <img class="instagram-icon" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
     </a>
   </header>
+  <div class="animated-banner">
+    Done with No-Code and A.I
+  </div>
   <section>
     <img src="https://scontent-zrh1-1.xx.fbcdn.net/v/t39.30808-6/225483286_3034394783444118_3142322534712571548_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=_awmdIirswkAX8kBv7E&_nc_ht=scontent-zrh1-1.xx&oh=00_AfCPuiOy0zNKqJDtSrbHIuKxINp4fhCd9cnwq3rTOzAs8w&oe=64E385CE" alt="Diego Jaggi">
   </section>
