@@ -1,60 +1,62 @@
-<style>
-  /* Your CSS styles go here */
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
+/* Your CSS styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
 
-  header {
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  }
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
 
-  header h1 {
-    color: black;
-  }
+header h1 {
+  color: black;
+}
 
-  header .instagram-icon {
-    width: 30px;
-    height: 30px;
-  }
+header .instagram-icon {
+  width: 30px;
+  height: 30px;
+}
 
-  section {
-    text-align: center;
-    padding: 50px 0;
-  }
+section {
+  text-align: center;
+  padding: 50px 0;
+}
 
-  section img {
-    max-width: 100%;
-    height: auto;
-  }
+section img {
+  max-width: 100%;
+  max-height: 400px; /* Adjust this value to your desired height */
+  width: auto;
+  height: auto;
+}
 
-  footer {
-    background-color: #333;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-  }
+footer {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
 
-  footer .instagram-icon {
-    width: 20px;
-    height: 20px;
-  }
+footer .instagram-icon {
+  width: 20px;
+  height: 20px;
+}
 
-  .email-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    cursor: pointer;
-  }
-</style>
+.email-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Your CSS styles */
