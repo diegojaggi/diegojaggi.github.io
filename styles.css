@@ -1,0 +1,80 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-right: 20px;
+}
+
+.header-right img {
+    width: 30px;
+    height: 30px;
+}
+
+.image-section {
+    /* Add styling for the image upload section */
+}
+
+.bio-section {
+    padding: 20px;
+}
+
+.bio-section p {
+    line-height: 1.5;
+}
+
+.email-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-left img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.footer-center {
+    text-align: center;
+}
