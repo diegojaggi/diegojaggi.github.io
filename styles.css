@@ -19,11 +19,14 @@ header h1 {
   color: #c8c9d3; /* Changed header title color */
   font-size: 30px; /* Adjust header title font size */
   text-transform: uppercase; /* Uppercase title text */
+  text-align: center; /* Center title text on mobile */
+  margin: 0; /* Reset margin */
 }
 
 header .social-icons {
   display: flex;
   align-items: center;
+  margin-top: 10px; /* Add margin on top for spacing */
 }
 
 header .social-icon {
@@ -35,7 +38,7 @@ header .social-icon {
 
 section {
   text-align: center;
-  padding: 20px 0; /* Adjusted top and bottom padding */
+  padding: 20px 15px; /* Adjusted top and bottom padding, added side padding for mobile */
 }
 
 section img {
@@ -48,6 +51,7 @@ section img {
 
 .middle-text {
   color: #B2B3B8; /* Change text color for the middle section */
+  padding: 0 10px; /* Add side padding for mobile */
 }
 
 .email-button {
@@ -79,11 +83,28 @@ footer {
   background-color: #343540; /* Changed footer background color */
   color: #c8c9d3; /* Changed footer text color */
   display: flex;
-  justify-content: center; /* Center-align content horizontally */
-  align-items: center; /* Center-align content vertically */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center-align content horizontally */
   padding: 10px 20px;
 }
 
 footer p {
   font-style: italic; /* Italicize the text in the footer */
+  text-align: center; /* Center-align text */
+  margin: 0; /* Reset margin */
+}
+
+@media (max-width: 600px) {
+  /* Adjustments for mobile devices */
+  header {
+    padding: 10px 15px; /* Adjust header padding for mobile */
+  }
+
+  section {
+    padding: 20px 15px; /* Adjusted top and bottom padding, added side padding for mobile */
+  }
+
+  section img {
+    max-height: 300px; /* Adjust max-height for smaller screens */
+  }
 }
