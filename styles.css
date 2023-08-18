@@ -1,57 +1,57 @@
-/* Your CSS styles */
+/* Your CSS styles go here */
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: -apple-system, Arial, sans-serif;
+  color: #c8c9d3; /* Set text color for the entire page */
 }
 
 header {
-  background-color: white;
+  background-color: #343540; /* Changed header background color */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 10px; /* Reduced header padding */
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
-  color: black;
+  color: #c8c9d3; /* Changed header title color */
+  font-size: 24px; /* Adjust header title font size */
+  text-transform: uppercase; /* Uppercase title text */
 }
 
-header .instagram-icon {
+header .social-icons {
+  display: flex;
+  align-items: center;
+}
+
+header .social-icon {
   width: 30px;
   height: 30px;
+  margin-left: 10px;
+  cursor: pointer;
 }
 
 section {
   text-align: center;
-  padding: 50px 0;
+  padding: 20px 0; /* Adjusted top and bottom padding */
 }
 
 section img {
-  max-width: 25%;
-  max-height: 100px; /* Adjust this value to your desired height */
+  max-width: 100%;
+  max-height: 400px; /* Adjust this value to your desired height */
   width: auto;
   height: auto;
 }
 
-footer {
-  background-color: #333;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-}
-
-footer .instagram-icon {
-  width: 20px;
-  height: 20px;
+.middle-text {
+  color: #C9CAD1; /* Change text color for the middle section */
 }
 
 .email-button {
-  background-color: #007bff;
-  color: white;
+  background-color: #494B5E; /* Changed button background color */
+  color: #c8c9d3; /* Changed button text color */
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -59,4 +59,25 @@ footer .instagram-icon {
   cursor: pointer;
 }
 
-/* Your CSS styles */
+/* Additional styles */
+section p {
+  margin-bottom: 1em;
+}
+
+section .email-button {
+  margin-top: 1em;
+  margin-bottom: 1em; /* Add margin to the button */
+}
+
+footer {
+  background-color: #343540; /* Changed footer background color */
+  color: #c8c9d3; /* Changed footer text color */
+  display: flex;
+  justify-content: center; /* Center-align content horizontally */
+  align-items: center; /* Center-align content vertically */
+  padding: 10px 20px;
+}
+
+footer p {
+  font-style: italic; /* Italicize the text in the footer */
+}
