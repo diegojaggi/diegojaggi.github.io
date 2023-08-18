@@ -9,11 +9,12 @@
   body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: -apple-system, Arial, sans-serif;
+    color: #c8c9d3; /* Set text color for the entire page */
   }
 
   header {
-    background-color: white;
+    background-color: #343540; /* Changed header background color */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,13 +23,8 @@
   }
 
   header h1 {
-    color: black;
+    color: #c8c9d3; /* Changed header title color */
     font-size: 24px; /* Adjust header title font size */
-  }
-
-  header .instagram-icon {
-    width: 30px;
-    height: 30px;
   }
 
   section {
@@ -45,16 +41,11 @@
 
   footer {
     background-color: #343540; /* Changed footer background color */
-    color: white;
+    color: #c8c9d3; /* Changed footer text color */
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center; /* Center-align content horizontally */
+    align-items: center; /* Center-align content vertically */
     padding: 10px 20px;
-  }
-
-  footer .instagram-icon {
-    width: 20px;
-    height: 20px;
   }
 
   .email-button {
@@ -80,9 +71,6 @@
 <body>
   <header>
     <h1>Chapter 1</h1>
-    <a href="https://www.instagram.com/jaeggi.diego" target="_blank">
-      <img class="instagram-icon" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
-    </a>
   </header>
   <section>
     <img src="https://scontent-zrh1-1.xx.fbcdn.net/v/t39.30808-6/225483286_3034394783444118_3142322534712571548_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=_awmdIirswkAX8kBv7E&_nc_ht=scontent-zrh1-1.xx&oh=00_AfCPuiOy0zNKqJDtSrbHIuKxINp4fhCd9cnwq3rTOzAs8w&oe=64E385CE" alt="Diego Jaggi">
@@ -90,16 +78,13 @@
   <section>
     <p>I am Diego Jaggi - a Digital Nomad that is from Switzerland and Argentina, and currently resides in Bogota, Colombia.</p>
     <p>This website was written with no coding experience and with the help of A.I.</p>
-    <p>It is the beginning of my journey create no code SAAS and AI tools which will help me become financially free.</p>
+    <p>It is the beginning of my journey to create no code SAAS and AI tools which will help me become financially free.</p>
     <p>Feel free to reach out to me with any questions.</p>
     <p>&nbsp;</p> <!-- Paragraph space -->
     <a class="email-button" href="mailto:jaeggi.diego@gmail.com">Email Me</a>
     <p>&nbsp;</p> <!-- Paragraph space -->
   </section>
   <footer>
-    <a href="https://www.instagram.com/jaeggi.diego" target="_blank">
-      <img class="instagram-icon" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
-    </a>
     <p>Powered by A.I</p>
   </footer>
 </body>
